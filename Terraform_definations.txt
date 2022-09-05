@@ -1,0 +1,22 @@
+
+Terraform provider?
+A provider is a Terraform plugin that allows users to manage an external API. 
+Provider plugins like the AWS provider or the cloud-init provider act as a translation layer that allows Terraform to communicate with many different cloud providers, databases, and services.
+
+Terraform Init?
+The terraform init command is used to initialize a working directory containing Terraform configuration files.
+This is the first command that should be run after writing a new Terraform configuration or cloning an existing one from version control. It is safe to run this command multiple times.
+
+Terraform apply?
+he terraform apply command performs a plan just like terraform plan does, but then actually carries out the planned changes to each resource using the relevant infrastructure provider's API. 
+It asks for confirmation from the user before making any changes, unless it was explicitly told to skip approval.
+
+Terraform destroy?
+Run terraform destroy – without --target argument
+
+Terraform Plan?
+which lets you preview the changes that Terraform plans to make to your infrastructure
+
+
+Terraform validate?
+The terraform validate command validates the configuration files in a directory
