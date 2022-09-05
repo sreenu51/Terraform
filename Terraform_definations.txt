@@ -19,4 +19,5 @@ which lets you preview the changes that Terraform plans to make to your infrastr
 
 
 Terraform validate?
-The terraform validate command validates the configuration files in a directory
+terraform validate — Validates the configuration files in your directory, and does not access any remote state or services.
+terraform init should be run before this command
