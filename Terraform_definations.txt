@@ -8,7 +8,7 @@ The terraform init command is used to initialize a working directory containing 
 This is the first command that should be run after writing a new Terraform configuration or cloning an existing one from version control. It is safe to run this command multiple times.
 
 Terraform apply?
-he terraform apply command performs a plan just like terraform plan does, but then actually carries out the planned changes to each resource using the relevant infrastructure provider's API. 
+terraform apply command performs a plan just like terraform plan does, but then actually carries out the planned changes to each resource using the relevant infrastructure provider's API. 
 It asks for confirmation from the user before making any changes, unless it was explicitly told to skip approval.
 
 Terraform destroy?
