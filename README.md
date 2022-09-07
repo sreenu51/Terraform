@@ -1,4 +1,4 @@
-# Terraform_Demo
-Terraform_Demo
+# Terraform
+Terraform
 
 1. Terraform basics to advanced 
