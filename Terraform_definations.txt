@@ -21,3 +21,12 @@ which lets you preview the changes that Terraform plans to make to your infrastr
 Terraform validate?
 terraform validate — Validates the configuration files in your directory, and does not access any remote state or services.
 terraform init should be run before this command
+
+Terraform Module?
+Module is one or more configuration files in a single directory ,Terraform can also support local and remote modules
+
+Terraform registory ?
+The Terraform Registry acts as a centralized repository for module sharing, making modules easier to discover and reuse
+
+
+

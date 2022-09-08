@@ -7,3 +7,12 @@ resource "aws_instance" "My_First_Instance" {
       "name" = "Instance1"
     }  
 }
+
+resource "aws_vpc" "My_VPC1" {
+  cidr_block = "10.4.0.0/16"
+
+  tags = {
+    Name = "My_VPC1"
+  }
+  
+}
