@@ -44,13 +44,47 @@ Attributes are values exposed by a particular resource
 syntax: resource_type.resource_name.attribute_name
 
 Terraform Top level Blocks?
-. settings Block
-. provider Block
-. resource block 
-. input variable block
-. output variale block
+. Settings Block
+. Provider Block
+. Resource block 
+. Input variable block
+. Output variable block
 . Local values block
 . Data source block 
 . Modules block
+
+
+Terraform fundamental block? Or settings block? 
+special block which is used to configure some behaviours
+specifying a required version of terraform
+specifying provider requirements
+configuring terraform state
+
+Provider block?
+Heart of the terraform
+Terraform relies on providers to interact with remote systems
+Declear providers for terraform to install providers
+provider configuration is belong to root module
+
+
+
+Resource block ?
+Each resource block describes one or more infracture objects 
+declear  resources
+
+Terraform state file?
+what ever the resources we created in cloud , same set of configurations will be stored in local state file 
+state file is just same as database of terraform 
+
+Terraform init ->  initialize the repo with remote server (.terraform.lock.hcl) file will be created , this file contains authantication information about local and remote server
+terraform apply -> terraform.tfstate file will be created it contains resources information for what we created in cloud service provider
+
+Multiple Providers?
+The primary reason for multiple provider is to support multiple regions 
+we can define multiple configurations for the same provider, and select which one to use on a per-resource and per module basis
+we can use alternate provider in a resource , data or module by referencing it as alias
+
+
+
 
 
