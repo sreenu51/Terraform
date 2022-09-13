@@ -16,4 +16,4 @@
 16. terraform state pull - pull the configurations from remote 
 17. terraform state rm resource name - delete resource from state file 
 18. TF_LOG  - enable detailed log 
-19 
+19. 

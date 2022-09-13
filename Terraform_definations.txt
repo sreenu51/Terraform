@@ -28,5 +28,29 @@ Module is one or more configuration files in a single directory ,Terraform can a
 Terraform registory ?
 The Terraform Registry acts as a centralized repository for module sharing, making modules easier to discover and reuse
 
+Terraform workflow?
+write - checkout the latest code
+plan - Run the terraform plan and raise a PR
+Create - merge and create
+
+what is arguments?
+To configure the resources in provider we need to define the arguments
+
+Meta Arguments?
+These are Terraform specific arguments which defines inside the arguments (count,dependson, for_each, provider, Lifecycle,) 
+
+Attribute?
+Attributes are values exposed by a particular resource 
+syntax: resource_type.resource_name.attribute_name
+
+Terraform Top level Blocks?
+. settings Block
+. provider Block
+. resource block 
+. input variable block
+. output variale block
+. Local values block
+. Data source block 
+. Modules block
 
 
