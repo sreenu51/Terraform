@@ -84,6 +84,17 @@ The primary reason for multiple provider is to support multiple regions
 we can define multiple configurations for the same provider, and select which one to use on a per-resource and per module basis
 we can use alternate provider in a resource , data or module by referencing it as alias
 
+Terraform resource Meta arguments?
+- Meta arguments can be used with any resource type to change the behaviours fo the resource
+- depends_on = To handle hidden resources or modules
+- count = for creating multiple resources accourding to the count
+- for_each = for creating multiple instances accourding to a map or set of strings
+- provider = for selecting non-default provider configurations
+- Lifecycle = 
+- provisioners & Connections = for taking extra actions after creating the resources 
+
+
+
 
 
 
